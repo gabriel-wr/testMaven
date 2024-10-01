@@ -7,7 +7,7 @@ public class Calculator {
        }
 
        public int Multiply(int a, int b) {
-              return a-b;
+              return a*b;
        }
 
        public String transform(int number) {
@@ -15,5 +15,9 @@ public class Calculator {
               if (number == 32) return "My number";
               if (number == 53) return "Your number";
               return "Not OK";
+       }
+
+       public int Subtract(int a, int b) {
+              return a-b;
        }
 }
